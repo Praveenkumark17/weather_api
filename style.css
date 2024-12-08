@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Afacad Flux", sans-serif;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.cards{
+    width: 550px;
+    background-color: navy;
+    border-radius: 20px;
+    box-shadow:  0px 0px 20px 2px black;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+}
+.search{
+    outline: none;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.search:focus{
+    outline: 2px solid #a1c4fd;
+}
+.btn1{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: navy;
+}
+.btn1:active{
+    color: blue;
+    background-color: #a1c4fd;
+    box-shadow: 0px 0px 5px 2px white;
+}
+.error{
+    width: fit-content;
+    margin: 0 auto;
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 192, 192);
+    border-radius: 15px;
+    padding: 0 10px;
+    font-size: 16px;
+    text-transform: lowercase;
+    display: flex;
+    justify-content: center;
+    
+}
+.weather{
+    line-height: 45px;
+    background-color: #c2e9fb;
+    color: navy;
+    width: 330px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.place{
+    font-size: 25px;
+}
+.temp{
+    font-size: 50px;
+}
+.con{
+    font-size: 25px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px 30px;
+}
+.humidity,.wind,.pressure,.real{
+    height: 150px;
+    width: 150px;
+    background-color: #c2e9fb;
+    color: navy;
+    border-radius: 10px;
+}
+.humidity{
+    justify-self: flex-end;
+}
+.pressure{
+    justify-self: flex-end;
+}
+.shap{
+    font-size: 40px;
+}
+.mainshap{
+    margin: 20px auto;
+    font-size: 70px;
+    background-color: #c2e9fb;
+    color: navy;
+    border-radius: 10px;
+    width: 150px;
+}
+.val{
+    background-color: #c2e9fb;
+    color: navy;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 25px;
+    border-radius: 15px;
+    padding: 0 10px;
+}
